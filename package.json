@@ -1,6 +1,6 @@
 {
   "name": "react-router4-redux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "connect react router 4.x and redux.",
   "main": "index.js",
   "repository": "https://github.com/skyFi/react-router-redux.git",
