@@ -1,7 +1,16 @@
 # react-router-redux
 connect react router 4.x and redux.
 
-## Usage
+## Install
+
+```JavaScript
+npm install react-router4-redux --save
+
+//or 
+yarn add react-router4-redux
+```
+
+## Why && Usage
 
 use redux before:
 
