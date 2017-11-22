@@ -1,8 +1,4 @@
-import { connect } from 'react-redux';
-import { withRouter } from 'react-router-dom'
+'use strict';
 
-export default  (...connectParams) => {
-  return (component) => {
-    return withRouter(connect(connectParams)(component));
-  }
-};
+require('babel-register');
+require('./src');
