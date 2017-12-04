@@ -32,13 +32,13 @@ oooh that`s so tedious.
 but now, you can do just simple redux:
 
 ```JavaScript
-import connect from 'react-router-redux';
+import connect from 'react-router4-redux';
 export default connect(mapStateToProps)(Something)
 ```
 
 use for connect mixins:
 
 ```JavaScript
-import connect from 'react-router-redux';
+import connect from 'react-router4-redux';
 export default connect(mapStateToProps)(Something, SomeMixin1, SomeMixin2, SomeMixin3 /*, ....mixins*/)
 ```
