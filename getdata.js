@@ -10,7 +10,7 @@ exports.default = {
       _lastPathname: location.pathname
     });
 
-    typeof this.fetchData === 'function' && this.fetchData(this.props.dispatch, this.props.match);
+    typeof this.fetchData === 'function' && this.fetchData({ dispatch: this.props.dispatch, match: this.props.match });
   },
 
   componentDidUpdate() {
@@ -22,6 +22,6 @@ exports.default = {
       _lastPathname: location.pathname
     });
 
-    typeof this.fetchData === 'function' && this.fetchData(this.props.dispatch, this.props.match);
+    typeof this.fetchData === 'function' && this.fetchData({ dispatch: this.props.dispatch, match: this.props.match });
   }
 };
